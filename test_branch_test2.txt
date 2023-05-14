@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-hellohelloe!
-=======
-wdfjhbjsahf
->>>>>>> refs/remotes/origin/test_branch
