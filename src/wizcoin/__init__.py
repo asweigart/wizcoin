@@ -252,7 +252,7 @@ class WizCoin(collections.abc.Sequence):
             self.galleons **= other
             self.sickles **= other
             self.knuts **= other
-        eles:
+        else:
             return NotImplemented
 
 
@@ -267,7 +267,7 @@ class WizCoin(collections.abc.Sequence):
     def __bool__(self):
         if self.galleons == 0 and self.sickles == 0 and self.knuts == 0:
             return False
-        eles:
+        else:
             return True
 
 
